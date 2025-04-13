@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: white;
+}
+button:hover {
+  background-color: #6c8cff;
+  color: white;
+}
+
+#categories {
+  max-width: 440px;
+  max-height: 100%;
+  padding: 24px;
+}
+
+.item {
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 4%;
+  margin-bottom: 16px;
+}
+
+.item ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.item ul li {
+  background-color: #f6f6fe;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  color: #2e2f42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+.item ul li:hover {
+  border: 1px solid #000000;
+}
+
+.tast-3-div {
+  padding: 24px;
+}
+
+.task-3-input {
+  width: 360px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #2e2f42;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.task-3-input:hover {
+  border: 1px solid #000000;
+}
+
+.task-3-input h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 4%;
+}
+
+.container-task4 {
+  width: 408px;
+  height: 256px;
+}
+.login-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #2E2F42;
+  margin-top: 8px;
+}
+
+.login-form input {
+  margin-top: 8px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-form input:hover {
+  border: 1px solid #000;
+}
+
+.login-form button {
+  margin-top: 16px;
+  background-color: #4E75FF;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  padding: 8px 16px;
+  width: 86px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.login-form button:hover {
+  background-color: #6C8CFF;
+}
+
+.widget {
+  
+  padding: 100px 88px;
+}
+.color-p {
+  color: #2E2F42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  margin-bottom: 16px;
+}
+p .color {
+  font-weight: bold;
+  color: white;
+  background-color: #000;
+}
+.change-color {
+  padding: 8px 16px 8px 16px;
+  margin: 0 10.5 0 10.5;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+#controls {
+  padding: 24px;
+  display: flex;
+  gap: 16px;
+}
+#controls input {
+  padding: 8px 72px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-weight: 400px;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 4%;
+  outline: none;
+}
+
+#controls button {
+  padding: 8px 31.5px;
+  color: #FFFFFF;
+  font-weight: 400px;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 4%;
+}
+
+#controls button:nth-of-type(2) {
+  background-color: #FF4E4E;
+}
+#controls button:nth-of-type(2):hover {
+  background-color: #FF7070;
+}
+
+.gallery {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 24px; 
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 1128px; 
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+#boxes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
