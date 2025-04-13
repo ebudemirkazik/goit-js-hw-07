@@ -41,6 +41,8 @@ createBtn.addEventListener('click', () => {
   }
   else {
     alert('Lütfen 1 ile 100 arasında bir sayı giriniz.');
+    const randomNumber = Math.floor(Math.random() * 100) + 1;
+    input.value = randomNumber;
   }
 });
 
